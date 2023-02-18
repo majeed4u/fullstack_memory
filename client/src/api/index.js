@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://144.24.222.57:5000/posts';
+const url = 'https://memory-api-h36n.onrender.com/posts';
 
 export const fetchPosts = () => axios.get(url);
 
